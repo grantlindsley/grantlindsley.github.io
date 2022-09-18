@@ -3091,7 +3091,7 @@ input, select, textarea {
 		}
 
 			#header.alt h1 {
-				font-size: 3.25em;
+				font-size: 3em; /* John here this was 3.25em */
 			}
 
 			#header.alt > * {
