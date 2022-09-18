@@ -3144,7 +3144,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 0em 3em 2em 3em ; /* john changed this from 5 to 0 */
 				}
 
 		}
