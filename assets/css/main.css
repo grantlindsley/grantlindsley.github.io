@@ -125,7 +125,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Adobe Garamond Pro", Garamond;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -194,7 +194,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 100;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
@@ -3086,7 +3086,8 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 2em 5em 4em 5em ;
+			/* John todo here is where to ajust the padding of the top title text*/
+			padding: 1em 5em 4em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3335,24 +3336,24 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
-		color: #636363;
+		color: #000000; /* john todo here is one color I changed (and also the nexte four*/
 		border-radius: 0.25em;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #636363;
+			color: #000000;
 		}
 
 		#main a:hover {
-			color: #636363;
+			color: #000000;
 		}
 
 		#main strong, #main b {
-			color: #636363;
+			color: #000000;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #636363;
+			color: #000000;
 		}
 
 		#main blockquote {
