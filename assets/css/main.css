@@ -99,11 +99,12 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #000000;
-		/* background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		/* background-color: #000000; */
+		background-image: url("images/background_cave.jpeg");
+		/* background-image: url("images/background_cave.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/background_cave.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/background_cave.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/background_cave.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3008,7 +3009,7 @@ input, select, textarea {
 			.spotlight .image img {
 				display: block;
 				border-radius: 100%;
-				width: 16em;
+				width: 12em; /* John changed this from 16em */
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3235,18 +3236,21 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
-		width: 64em;
+		width: 50em; /* john I changed this from 64em */
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #e8e8e8; /* John changed this from f7f7f7 */
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+		border-top: 2px solid black; /* John added this */
+		border-left: 2px solid black; /* John added this */
+		border-right: 2px solid black; /* John added this */
 	}
 
 		#nav input, #nav select, #nav textarea {
-			color: #636363;
+			color: #ffffff;
 		}
 
 		#nav a:hover {
@@ -3307,6 +3311,8 @@ input, select, textarea {
 					border: 0;
 					border-radius: 8px;
 					box-shadow: inset 0 0 0 1px transparent;
+					background-color: #f2f2f2; /* john I added this */
+					box-shadow: none; /* john I added this */
 				}
 
 					#nav ul li a:hover {
@@ -3352,8 +3358,9 @@ input, select, textarea {
 
 	#main {
 		background-color: #ffffff;
-		color: #000000; /* john todo here is one color I changed (and also the nexte four*/
+		color: #000000; /* john todo here is one color I changed (and also the next four)*/
 		border-radius: 0.25em;
+		border: 2px solid black; /* John added this */
 	}
 
 		#main input, #main select, #main textarea {
@@ -3780,7 +3787,7 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		width: 64em;
+		width: 50em; /* john I changed this from 64em */
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
 	}
