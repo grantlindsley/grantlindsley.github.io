@@ -3133,7 +3133,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 0em 4em 3em 4em ; /* john changed this from 6 to 0 */
+					padding: 1.5em 4em 3em 4em ; /* john changed this from 6 to 1.5 */
 				}
 
 				#header.alt h1 {
@@ -3149,7 +3149,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 0em 3em 2em 3em ; /* john changed this from 5 to 0 */
+					padding: 1.5em 3em 2em 3em ; /* john changed this from 5 to 1.5 */
 				}
 
 				#header.alt h1 {
@@ -3174,7 +3174,7 @@ input, select, textarea {
 					}
 
 				#header.alt {
-					padding: 0em 2em 1em 2em ; /* john changed this from 5 to 0 */
+					padding: 1.5em 2em 1em 2em ; /* john changed this from 5 to 1.5 */
 				}
 
 					#header.alt h1 {
@@ -3190,7 +3190,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 0em 1.5em 1em 1.5em ; /* john changed this from 4 to 0 */
+					padding: 1.5em 1.5em 1em 1.5em ; /* john changed this from 4 to 1.5 */
 				}
 
 				#header.alt h1 {
@@ -3206,7 +3206,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 0em 1em 0.5em 1em ; /* john changed this from 3.5 to 0 */
+					padding: 1.5em 1em 0.5em 1em ; /* john changed this from 3.5 to 1.5 */
 				}
 			
 				#header.alt h1 {
