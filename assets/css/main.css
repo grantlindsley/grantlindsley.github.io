@@ -3129,7 +3129,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 0em 4em 0.1em 4em ; /* john changed this trying to fix header space issue 4 to 0 */
+				padding: 1.5em 4em 0.1em 4em ; /* john changed this trying to fix header space issue 4 to 1.5 */
 			}
 
 				#header.alt {
@@ -3145,7 +3145,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#header {
-				padding: 0em 3em 0.1em 3em ; /* john changed this trying to fix header space issue 4 to 0*/
+				padding: 1.5em 3em 0.1em 3em ; /* john changed this trying to fix header space issue 4 to 1.5*/
 			}
 
 				#header.alt {
@@ -3161,7 +3161,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 0em 2em 0.1em 2em ; /* john changed this trying to fix header space issue 3 to 0 */
+				padding: 1.5em 2em 0.1em 2em ; /* john changed this trying to fix header space issue 3 to 1.5 */
 			}
 
 				#header p {
@@ -3178,7 +3178,7 @@ input, select, textarea {
 				}
 
 					#header.alt h1 {
-						font-size: 1.5em; /* john changed this from 2.5 to 2 */
+						font-size: 1.5em; /* john changed this from 2.5 to 1.5 */
 					}
 
 		}
@@ -3186,7 +3186,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 0em 1.5em 0.1em 1.5em ; /* john changed this trying to fix header space issue 3 to 0 */
+				padding: 1.5em 1.5em 0.1em 1.5em ; /* john changed this trying to fix header space issue 3 to 1.5 */
 			}
 
 				#header.alt {
@@ -3202,7 +3202,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 0em 1em 0.1em 1em ; /* john changed this trying to fix header space issue 2.5 to 0 */
+				padding: 1.5em 1em 0.1em 1em ; /* john changed this trying to fix header space issue 2.5 to 1.5 */
 			}
 
 				#header.alt {
