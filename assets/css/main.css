@@ -3234,19 +3234,17 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
-		color: #636363;
+		color: #ffffff; /* john changed this from #636363 */
 		position: absolute;
 		width: 50em; /* john I changed this from 64em */
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #e8e8e8; /* John changed this from f7f7f7 */
+		background-color: #ffffff; /* John changed this from f7f7f7 */
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
-		border-top: 2px solid black; /* John added this */
-		border-left: 2px solid black; /* John added this */
-		border-right: 2px solid black; /* John added this */
+		border: 2px solid black; /* John added this */
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3254,15 +3252,15 @@ input, select, textarea {
 		}
 
 		#nav a:hover {
-			color: #636363;
+			color: #ffffff; /* John changed this from 636363 */
 		}
 
 		#nav strong, #nav b {
-			color: #636363;
+			color: #ffffff; /* John changed this from 636363 */
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #636363;
+			color: #ffffff; /* John changed this from 636363 */
 		}
 
 		#nav blockquote {
@@ -3311,7 +3309,7 @@ input, select, textarea {
 					border: 0;
 					border-radius: 8px;
 					box-shadow: inset 0 0 0 1px transparent;
-					background-color: #f2f2f2; /* john I added this */
+					background-color: #ffffff; /* john I added this */
 					box-shadow: none; /* john I added this */
 				}
 
@@ -3328,7 +3326,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			/* background-color: rgba(247, 247, 247, 0.95); */
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -3569,11 +3567,11 @@ input, select, textarea {
 		}
 
 		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-color: black;
+			/* background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0); */
 		}
 
 		#main table tbody tr {
