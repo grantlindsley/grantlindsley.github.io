@@ -15,11 +15,12 @@
 	</head>
 	<!-- <body class="is-preload" style="background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('images/background_cave.jpeg');background-repeat:no-repeat;background-attachment: fixed;background-size: cover;"> -->
 	<!-- <body class="is-preload"> -->
-	<body class="is-preload" style="background-image: url('images/book_cover_smallest_no_text.jpeg');">
+	<body class="is-preload" style="background-image: url('images/book_cover_smallest_no_text.jpg');">
 	<!-- Here's the yellow color: #fed700 -->
 
 		<!-- Wrapper -->
 			<div id="wrapper">
+			
 
 				<div>
 					<br/>
@@ -42,7 +43,7 @@
 							<!-- <h1 style="letter-spacing: 0.05em;">GRANT LINDSLEY</h1> -->
 							<span class="image" width="">
 								<a href="https://shop.aer.io/GirlFridayBooks/p/Mediocre_Monk_A_Memoir/9781954854987-11202">
-								<img style="padding:2px;border:2px solid #000000;max-width: 100%;max-height: 80%;" src="images/book_cover.jpg" width="450em" alt="" />
+								<img style="padding:2px;border:2px solid #000000;max-width: 100%;max-height: 80%;" src="images/book_cover.jpg" width="450em" alt="" id="book_cover"/>
 								</a>
 							</span>
 							<p><a href="https://shop.aer.io/GirlFridayBooks/p/Mediocre_Monk_A_Memoir/9781954854987-11202">Buy it here</a> or wherever you get your books</p>
@@ -103,7 +104,31 @@
 											<li><a href="generic.html" class="button">Learn More</a></li>
 										</ul> -->
 									</div>
-									<span class="image" style="padding:2px;border:2px solid #000000;"><img src="images/Grant_headshot.jpg" alt="" /></span>
+									<span class="image" style="padding:2px;border:2px solid #000000;"><img src="images/Grant_headshot.jpg" alt="" onclick="change_image()" id="headshot"/></span>
+									<script>
+										const headshot_img = document.getElementById('headshot');
+										const cover_img = document.getElementById('book_cover');
+										headshot_img.dataset.image = "Grant_headshot";
+										current_index = 0;
+										const change_image = function() {
+											if (headshot_img.dataset.image == "Grant_badass") {
+												headshot_img.src = "images/Grant_headshot.jpg";
+												headshot_img.dataset.image = "Grant_headshot";
+												cover_img.src = "images/book_cover.jpg";
+												current_index = 0;
+												return
+											};
+											if (headshot_img.dataset.image == "Grant_headshot") {
+												current_index++;
+												if (current_index >= 6) {
+													headshot_img.src = "images/Grant_badass.jpg";
+													headshot_img.dataset.image = "Grant_badass";
+													cover_img.src = "images/grant_jr_asleep.jpg";
+												}
+												return
+											};
+										};
+									</script>					
 								</div>
 							</section>
 						
@@ -118,8 +143,8 @@
 									<a href="http://www.google.com/url?q=http%3A%2F%2Fbuymeacoffee.com%2Flindsley&sa=D&sntz=1&usg=AOvVaw1kPydmsv5wVFH6SkifbeSH"><span class="fas fa-coffee fa-2x"></span></a>
 								</li>
 								<li>
-									<h3>Follow</h3>
-									<a href="https://www.google.com/url?q=https%3A%2F%2Fwww.instagram.com%2Fgrantlindsley_author%2F&sa=D&sntz=1&usg=AOvVaw0q8tVLgow4VJna8KKwU7cG"><span class="brands icon fa-instagram fa-2x"></span></a>
+									<h3 style="margin-bottom:.3em">Follow</h3>
+									<a href="https://www.google.com/url?q=https%3A%2F%2Fwww.instagram.com%2Fgrantlindsley_author%2F&sa=D&sntz=1&usg=AOvVaw0q8tVLgow4VJna8KKwU7cG"><span class="brands icon fa-instagram fa-2x" style="padding-top: -50px;"></span></a>
 								</li>
 							</ul>
 							<!-- <footer class="major">
