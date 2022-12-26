@@ -181,6 +181,13 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 	}
+	/* John I added this and the next one to make the reviews text a bit smaller */
+	#reviews p {
+		font-size: .8em;
+	}
+	#oneline h4 {
+		font-size: .8em;
+	}
 
 		p.content {
 			-moz-columns: 20em 2;
@@ -2163,7 +2170,7 @@ input, select, textarea {
 		}
 
 	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.35)' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.35)' /%3E%3C/svg%3E");
 	}
 
 		select option {
@@ -3088,7 +3095,8 @@ input, select, textarea {
 
 		#header.alt {
 			/* John todo here is where to ajust the padding of the top title text*/
-			padding: 1em 5em 4em 5em ;
+			/* John reduced bottom padding from 4 to 1 */
+			padding: 1em 5em 1em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3485,7 +3493,7 @@ input, select, textarea {
 			}
 
 		#main select {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dddddd' /%3E%3C/svg%3E");
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dddddd' /%3E%3C/svg%3E");
 		}
 
 			#main select option {
@@ -3603,7 +3611,9 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			/* JR removed first ie top padding */
+			padding: 4em 5em 3em 5em ;
+			/* JR removed this top border */
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3630,7 +3640,8 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
-				padding: 4em 4em 2em 4em ;
+				/* JR removed first ie top padding */
+				padding: 0em 4em 2em 4em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3643,7 +3654,8 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#main > .main {
-				padding: 4em 3em 2em 3em ;
+				/* JR removed first ie top padding */
+				padding: 0em 3em 2em 3em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3656,7 +3668,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main > .main {
-				padding: 3em 2em 1em 2em ;
+				/* JR removed first ie top padding */
+				padding: 0em 2em 1em 2em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3669,7 +3682,8 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 3em 1.5em 1em 1.5em ;
+				/* JR removed first ie top padding */
+				padding: 0em 1.5em 1em 1.5em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3686,7 +3700,8 @@ input, select, textarea {
 			}
 
 				#main > .main {
-					padding: 2.5em 1em 0.5em 1em ;
+					/* JR removed first ie top padding */
+					padding: 0em 1em 0.5em 1em ;
 				}
 
 					#main > .main > .image.main:first-child {
